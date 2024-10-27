@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shiva's Blessings</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Om Namah Shivaya</h1>
+    <p>Welcome to the world of Shiva's love and blessings.</p>
+  </header>
+
+  <section class="shiva-section">
+    <img src="Capture1.PNG" alt="Lord Shiva" class="shiva-image">
+    <blockquote id="shiva-quote">
+      "The soul that is attuned to Shiva’s love is blessed beyond measure."
+    </blockquote>
+    <button onclick="showRandomQuote()">Show Shiva's Wisdom</button>
+  </section>
+
+  <section class="wish-section">
+    <h2>Your Wishes for Shiva</h2>
+    <ul id="wish-list">
+      <!-- Wishes will appear here -->
+    </ul>
+    <input type="text" id="wish-input" placeholder="Enter your wish here">
+    <button onclick="addWish()">Add Wish</button>
+    <button onclick="grantWishes()">Grant My Wishes</button>
+  </section>
+
+  <audio id="chant-audio" src="om-namah-shivaya-39185.mp3"></audio> <!-- Include Shiva chant audio -->
+
+  <script src="script.js"></script>
+</body>
+</html>
